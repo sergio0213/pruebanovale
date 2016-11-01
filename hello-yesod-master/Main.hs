@@ -13,7 +13,6 @@ instance Yesod Hello
 
 getHomeR :: Handler String
 getHomeR = return "Hello, world!"
-
 main :: IO ()
 main = do
     env <- getEnvironment
