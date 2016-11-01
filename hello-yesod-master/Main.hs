@@ -12,8 +12,7 @@ mkYesod "Hello" [parseRoutes|/ HomeR GET|]
 instance Yesod Hello
 
 getHomeR :: Handler String
-getHomeR = return "Mi primer Programa con YESOD <IMG SRC='immagine.gif'>">
-"
+getHomeR = return "Mi primer Programa "
 
 main :: IO ()
 main = do
