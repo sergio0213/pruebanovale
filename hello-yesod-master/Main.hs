@@ -12,7 +12,7 @@ mkYesod "Hello" [parseRoutes|/ HomeR GET|]
 instance Yesod Hello
 
 getHomeR :: Handler String
-getHomeR = return "Mi primer Programa "
+getHomeR = return "Hello, world!"
 
 main :: IO ()
 main = do
